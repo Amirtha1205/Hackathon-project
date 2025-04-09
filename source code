@@ -47,8 +47,8 @@
             });
 
             function fetchWeatherData(city) {
-                const apiKey = 'https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}'; // Replace with your OpenWeatherMap API key
-                const apiUrl = `http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}`;
+                const apiKey = 'apiKey='d7d930c82c090484b16633d25ea9b927'; // Replace with your OpenWeatherMap API key
+                const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}`;
 
                 $.get(apiUrl, function(data) {
                     // Display weather data
